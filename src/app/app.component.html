@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../app/app.component.css">
+  </head>
+  <body>
+    <div class="data">
+      <div class="title">
+        <p>FORMULARIO</p>
+      </div>
+      <form action="../app/app.component.ts" method="post">
+        <ul>
+          <li>
+            <label for="document">Documento:</label>
+            <input type="text" id="document">
+          </li>
+          <li>
+            <label for="name">Nombres:</label>
+            <input type="text" id="name">
+          </li>
+          <li>
+            <label for="lastName">Apellidos:</label>
+            <input type="text" id="lastName">
+          </li>
+          <li>
+            <label for="tel">Telefóno:</label>
+            <input type="text" id="tel">
+          </li>
+          <li>
+            <label for="email">Correo:</label>
+            <input type="email" id="email">
+          </li>
+          <li>
+            <label for="adress">Dirección:</label>
+            <input type="text" id="adress">
+          </li>
+          <li class="button">
+            <button type="submit">ENVIAR</button>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </body>
+</html>
